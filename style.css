@@ -1,0 +1,365 @@
+  
+    body{
+      font-family: Arial;
+      background: #f5f5ee;
+    }
+    .contrainer{
+    padding: 50px;
+    font-size: 0;
+  }
+  .content{
+    display: inline-block;
+    width: 50%;
+    font-size: 30px;
+
+  }
+  .image{
+    display: inline-block;
+    width: 40%;
+    font-size: 16px;
+    margin-left: 60px;
+  }
+  .image img{
+    width: 100%;
+    border-radius: 15px;
+
+  }
+  
+  h1{
+    color:black;
+  font-size: 60px;
+  padding-bottom: 5px;
+
+}
+p{
+    font-size: 20px;
+    color: gray;
+  
+    padding-bottom: 60px;
+}
+.syj{
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.learn{
+  margin-left: 25px;
+  text-decoration: none;
+  color: gray;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.demo{
+  text-align: center;
+  padding: 70px 50px;
+  font-size: 0;
+
+
+}
+.demo h2{
+  color: black;
+  font-size: 40px;
+}
+.demo p{
+  color: gray;
+}
+.card{
+  display: inline-block;
+  width: 31%;
+  height: 250px;
+  border-radius: 15px;
+  font-size: 15px;
+  margin: 30px 10px;
+  background-color: lightgrey;
+  padding-top: 20px;
+  
+  
+  
+}
+.card h3{
+  color: black;
+}
+.card p{
+  color: gray;
+}
+.icon{
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  padding: 10px;
+  font-size: 30px;
+  color: white;
+  border-radius: 10px;
+}
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color: green;
+}
+.purple{
+  background-color: purple;
+}
+.context{
+  width: 95%;
+  margin: 60px auto;
+  overflow: hidden;
+  
+}
+img{
+  width: 50%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  float: left;
+  margin-top: 25px;
+}
+  
+  .text{
+    width: 45%;
+    float: right;
+    
+  }
+
+  .text h1{
+  color: black;
+  font-size: 35px;
+}
+.item{
+  border-left: 4px solid black;
+  padding-left: 20px;
+  margin-bottom: -15px;
+}
+.item h2{
+  color: black;
+  font-size: 20px;
+}
+
+p{
+  color: black;
+  font-size: 15px;
+}
+.reviews{
+  width: 95%;
+  margin: 30px auto;
+  text-align: center;
+  
+}
+h1{
+  font-size: 40px;
+
+}
+.subtitle{
+  font-size: 20px;
+  color: black;
+  margin-left: 70px;
+}
+.cards{
+  text-align: left;
+
+}
+.card2{
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  margin: 1%;
+  vertical-align: top;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: lightgrey;
+  height: 300px;
+}
+.member{
+  overflow: hidden;
+}
+.member img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+h3{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.member p{
+  color: black;
+  font-size: 15px;
+  margin: auto;
+}
+.card2 p{
+  color: black;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.stats{
+  width: 95%;
+  margin: 50px auto;
+  padding: 30px 0;
+  background-color: lightgrey;
+  text-align: center;
+  border-radius: 15px;
+}
+.box{
+  display: inline-block;
+  width: 24%;
+  vertical-align: top;
+  height: 120px;
+}
+.box h1{
+  color: black;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.box p{
+  color: gray;
+  font-size: 17px;
+  margin-top: 0;
+}
+.join{
+  width: 85%;
+  margin: 50px auto;
+  text-align: center;
+
+}
+ .join h1{
+  font-size: 35px;
+  
+}
+ .join p{
+  color: gray;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+form{
+  width: 80%;
+  margin: 30px auto;
+  background-color: aliceblue;
+  padding: 40px;
+  text-align: left;
+  overflow: hidden;
+}
+.field{
+  display: inline-block;
+  width: 48%;
+  margin-bottom: 25px;
+  vertical-align: top;
+}
+.field2{
+  width: 98%;
+}
+label{
+display: block;
+  margin-top: 25px;
+  font-size: 15px;
+  font-weight: bold;
+ padding-bottom: 15px;
+}
+input, select, textarea{
+  width: 95%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: white;
+}
+.field2 input, .field2 select, .field2 textarea{
+  width: 100%;
+}
+textarea{
+  height: 80px;
+  resize: vertical;
+}
+input[type=submit]{
+  padding: 15px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+.note{
+  text-align: center;
+  color: gray;
+  font-size: 2px;
+  margin-top: 20px;
+}
+
+
+
+
+    
+    .footer {
+    background-color: #101020;
+    color: white;
+    padding: 40px 8%;
+    font-family: Arial;
+}
+
+.footer-content {
+    width: 100%;
+    overflow: hidden;
+}
+
+.about {
+    width: 43%;
+    float: left;
+}
+
+.links {
+    width: 10%;
+    float: left;
+    margin-left: 3%;
+    margin-top: -5px;
+}
+
+.contact {
+    width: 25%;
+    float: right;
+    margin-top: -5px;
+}
+
+.footer h2 {
+    font-size: 24px;
+}
+
+.footer h3 {
+    font-size: 17px;
+}
+
+.footer p {
+    font-size: 13px;
+    line-height: 1,8;
+    color: #b7bdcc;
+}
+
+.social {
+    margin: 10px 20px;
+  
+}
+
+.footer hr {
+    border: 0;
+    border-top: 1px solid #303044;
+    margin-top: 35px;
+}
+
+.bottom {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.bottom p:first-child {
+    float: left;
+}
+
+.bottom p:last-child {
+    float: right;
+}
